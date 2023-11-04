@@ -27,7 +27,7 @@ We assumed your data are ready preprocessed. If not, we recommand:
 
 For RNA modality: use `sc.pp.filter_genes`, `sc.pp.filter_cells`, `sc.pp.normalize_total`, `sc.pp.log1p` to preprocess your data. You can view the [scanpy tutorial](https://scanpy-tutorials.readthedocs.io/en/latest/pbmc3k.html) for more details
 
-For ADT modality: use `CTL` normalization. You can use muon package to do this. You can view the [muon tutorial](https://muon.readthedocs.io/en/latest/tutorial.html) for more details.
+For ADT modality: use `CTL` normalization. You can use muon package to do this. You can view the [muon tutorial](https://muon.readthedocs.io/en/latest/tutorials.html) for more details.
 
 For ATAC modality: filter peak first and binarize your data.
 
