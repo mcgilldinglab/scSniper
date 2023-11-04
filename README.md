@@ -12,12 +12,24 @@ This repository contains the official implementation of the paper:
 scSniper introduces a novel approach to biomarker discovery, leveraging deep neural network sensitivity analysis to pinpoint key gene biomarkers beyond traditional differential expression methods. It stands out by utilizing a mimetic attention mechanism, which allows for the integration of multi-omic data, highlighting critical biomarkers across genomics, proteomics, and metabolomics. This mechanism prioritizes important multi-omic features, enabling a comprehensive analysis that other single-omic focused tools may miss.The tool innovatively merges a disease classifier and an autoencoder, producing joint cell embeddings that represent disease-specific multi-omic profiles, improving single-cell resolution clustering and biomarker identification accuracy. scSniper's method represents a significant leap in biomarker discovery, offering a more integrative and precise approach to understanding complex diseases.
 
 ## Setup
-
+### Requirements
+scSniper requires Python 3.9 or higher. The following packages are required:
+```bash
+pip install -r requirements.txt
+```
+By default, torch will be installed with CUDA support only on Linux. If you are using Windows or macOS. Instead of the above command, please install the appropriate PyTorch package for your system from [here](https://pytorch.org/get-started/locally/). Then run the following command instead:
+```bash
+pip install -r requirements_non_linux.txt
+```
 ## Training
+Required arguments:
+
+```bash
+pyton train.py
+```
 
 ## Evaluation
 
-## Examples
 
 ## To Do
 - [ ] Add distributed training (more than one GPU)

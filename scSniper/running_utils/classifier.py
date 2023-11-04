@@ -1,4 +1,4 @@
-from layers import *
+from .layers import *
 class Classifier(nn.Module):
     def __init__(self, interlayers_dims, emb_dim, num_batch, num_class, apply_softmax=True, batchnorm=True,
                  activation=nn.LeakyReLU(), dropout=0):

@@ -1,6 +1,6 @@
-from autoencoder import AE
-from classifier import Classifier
-from layers import *
+from .classifier import Classifier
+from .layers import *
+from .autoencoder import AE
 class AE_Classifier(nn.Module):
 
     def __init__(self, encoder_dim_dict, decoder_dim_list, interlayers_dims, num_batch, num_class, batchnorm=True,

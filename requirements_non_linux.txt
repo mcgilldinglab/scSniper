@@ -1,0 +1,4 @@
+scanpy
+pandas
+click
+numpy

@@ -1,4 +1,4 @@
-from layers import *
+from .layers import *
 class AE(nn.Module):
     def __init__(self, encoder_dim_dict, decoder_dim_list, num_batch, batchnorm=True,
                  activation=nn.LeakyReLU(), dropout=0.1):
@@ -62,7 +62,7 @@ class AE(nn.Module):
         for j, modality in enumerate(self.encoder.keys()):
             input = x[j]
             for key in self.encoder[modality].keys():
-                input = self.encoder[modality][key](input, batch_onehot)
+                 input = self.encoder[modality][key](input, batch_onehot)
             emb.append(input)
 
         emb = torch.cat(emb, dim=1)
