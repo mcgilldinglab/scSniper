@@ -45,7 +45,7 @@ Required arguments:
 * `--encoder_dict`: The output dimensions of the encoder layers. The last input dimension is the latent dimension of the modality. Input dimensions are automatically calculated. Example `--encoder_dict="{RNA:[128,128,64],ATAC:[128,64,32]}"`.
 * `--decoder_dict`: The output dimensions of the decoder layers. The last input dimension is the latent dimension of the modality. Input dimensions are automatically calculated. Example `--decoder_dict="{RNA:[128,128],ATAC:[64,64,128]}"`.
 
-* Optionally, you can specify the following arguments:
+Optionally, you can specify the following arguments:
 * `--batch_size`: The batch size. Default: `--batch_size=128`.
 * `--learning_rate`: The learning rate. Default: `--lr=1e-3`.
 * `--categorical_covariate`: The categorical covariate, such as batch_label. Default: `--categorical_covariate=None`.
