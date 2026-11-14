@@ -82,3 +82,12 @@ This will create folders for each `cell_type` in the output folder. The folder c
 ## Acknowledgement
 This work was funded in part by grants awarded to [JD]. We gratefully acknowledge the support from the Canadian Institutes of Health Research (CIHR) under Grant Nos. PJT-180505; the Funds de recherche du Québec - Santé (FRQS) under Grant Nos. 295298 and 295299; the Natural Sciences and Engineering Research Council of Canada (NSERC) under Grant No. RGPIN2022-04399; and the Meakins-Christie Chair in Respiratory Research.
 ## Citation
+
+## Licensing
+
+scSniper is offered under two licensing options:
+
+- **Noncommercial:** [PolyForm Noncommercial License 1.0.0](LICENSE-NONCOMMERCIAL.txt), under its complete, unmodified terms.
+- **Commercial:** uses outside those permissions require a separate written agreement with the copyright holders or their authorized representatives. Contact [jun.ding@mcgill.ca](mailto:jun.ding@mcgill.ca).
+
+See [LICENSE](LICENSE) and [commercial licensing](COMMERCIAL-LICENSING.md) for scope and details. Earlier licenses and third-party notices remain applicable to the material they cover. This is a source-available licensing model with a noncommercial restriction; it is not an OSI open-source license.
